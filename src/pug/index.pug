@@ -12,6 +12,7 @@ html(lang='en')
 
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+        //- link(rel='icon', type='image/x-icon', href='assets/img/cabin.png')
 
         // Font Awesome icons (free version)
         script(src='https://use.fontawesome.com/releases/v5.15.3/js/all.js', crossorigin='anonymous')
@@ -23,12 +24,13 @@ html(lang='en')
         // Core theme CSS (includes Bootstrap)
         link(href='css/styles.css', rel='stylesheet')
 
-    body#page-top
+    body#home
 
         // Navigation
         nav#mainNav.navbar.navbar-expand-lg.bg-secondary.text-uppercase.fixed-top
             .container
-                a.navbar-brand(href='#page-top') Home
+                a.navbar-brand(href='#home')
+                    i.fas.fa-fw.fa-home
                 button.navbar-toggler.text-uppercase.font-weight-bold.bg-primary.text-white.rounded(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     | Menu 
                     i.fas.fa-bars
@@ -45,14 +47,15 @@ html(lang='en')
         header.masthead.bg-primary.text-white.text-center
             .container.d-flex.align-items-center.flex-column
                 // Masthead Avatar Image
-                img.masthead-avatar.mb-5(src='assets/img/avataaars.svg', alt='...')
+                //- img.masthead-avatar.mb-5(src='assets/img/avataaars.svg', alt='...')
+                img.masthead-avatar.mb-5(src='assets/img/arch5.png', alt='...')
                 // Masthead Heading
                 h1.masthead-heading.text-uppercase.mb-0 Chase Toyofuku-Souza
                 // Icon Divider
                 .divider-custom.divider-light
                     .divider-custom-line
                     .divider-custom-icon
-                        i.fas.fa-star
+                        i.far.fa-user
                     .divider-custom-line
                 // Masthead Subheading
                 p.masthead-subheading.font-weight-light.mb-0 Back-End Software Developer in Honolulu, Hawaii
@@ -66,7 +69,7 @@ html(lang='en')
                 .divider-custom
                     .divider-custom-line
                     .divider-custom-icon
-                        i.fas.fa-star
+                        i.fas.fa-code
                     .divider-custom-line
                 // Portfolio Grid Items
                 .row.justify-content-center
@@ -76,7 +79,7 @@ html(lang='en')
                             .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
                                 .portfolio-item-caption-content.text-center.text-white
                                     i.fas.fa-plus.fa-3x
-                            img.img-fluid(src='assets/img/portfolio/cabin.png', alt='...')
+                            img.img-fluid(src='assets/img/portfolio/preview.png', alt='...')
                     // Portfolio Item 2
                     .col-md-6.col-lg-4.mb-5
                         .portfolio-item.mx-auto(data-bs-toggle='modal', data-bs-target='#portfolioModal2')
@@ -252,14 +255,14 @@ html(lang='en')
                             i.fab.fa-fw.fa-linkedin-in
                         a.btn.btn-outline-light.btn-social.mx-1(href='https://www.youtube.com/channel/UCm8cc_a9P68Cgx6AaLJLNsQ' target="_blank")
                             i.fab.fa-fw.fa-youtube
-                        a.btn.btn-outline-light.btn-social.mx-1(href='mailto:chasetoyo@gmail.com?subject=Inquiry from Website')
+                        a.btn.btn-outline-light.btn-social.mx-1(href='mailto:chasetoyo@gmail.com?subject=Inquiry from website')
                             i.fas.fa-fw.fa-envelope
                     //- // Footer About Text
                     .col-lg-4
                         h4.text-uppercase.mb-4 Contact
                         p.lead.mb-0
                             | Please feel free to email me at
-                            a(href='chasetoyo@gmail.com') chasetoyo@gmail.com
+                            a(href='mailto:chasetoyo@gmail.com?subject=Inquiry from website') chasetoyo@gmail.com
                             | with any inquiries!
 
         // Copyright Section
