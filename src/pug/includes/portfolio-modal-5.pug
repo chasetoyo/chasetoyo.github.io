@@ -9,18 +9,19 @@
                     .row.justify-content-center
                         .col-lg-8
                             // Portfolio Modal - Title
-                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Locked Safe
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 To-Do List
                             // Icon Divider
                             .divider-custom
                                 .divider-custom-line
                                 .divider-custom-icon
-                                    i.fas.fa-star
+                                    i.fas.fa-mobile-alt
                                 .divider-custom-line
                             // Portfolio Modal - Image
-                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/safe.png', alt='...')
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/todolist.png', alt='...')
                             // Portfolio Modal - Text
                             p.mb-4
-                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
-                            button.btn.btn-primary(href='#!', data-bs-dismiss='modal')
-                                i.fas.fa-times.fa-fw
-                                | Close Window
+                                | A To Do List app implemented using Swift/Storyboards. It uses a table view to display the tasks, and uses UserDefaults to store the tasks. 
+                                | There are 3 View Controllers, one for viewing tasks, one for editing tasks, and one for adding tasks. The tasks are also sortable by date and category.
+                            a(href='https://github.com/chasetoyo/ToDoList', class='btn btn-primary', target='_empty')
+                                i.fab.fa-github.fa-fw
+                                | View On GitHub

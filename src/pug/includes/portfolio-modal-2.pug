@@ -9,19 +9,18 @@
                     .row.justify-content-center
                         .col-lg-8
                             // Portfolio Modal - Title
-                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 To-Do List
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Satellite Image Object Detection with Mask R-CNN
                             // Icon Divider
                             .divider-custom
                                 .divider-custom-line
                                 .divider-custom-icon
-                                    i.fas.fa-mobile-alt
+                                    i.fas.fa-satellite
                                 .divider-custom-line
                             // Portfolio Modal - Image
-                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/todolist.png', alt='...')
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/mask.png', alt='...')
                             // Portfolio Modal - Text
                             p.mb-4
-                                | A To Do List app implemented using Swift/Storyboards. It uses a table view to display the tasks, and uses UserDefaults to store the tasks. 
-                                | There are 3 View Controllers, one for viewing tasks, one for editing tasks, and one for adding tasks. The tasks are also sortable by date and category.
-                            a(href='https://github.com/chasetoyo/ToDoList', class='btn btn-primary', target='_empty')
+                                | Final project for CPSC 393 (Machine Learning) at Chapman University. This is an example of using Matterports Mask R-CNN framework to detect and create masks around cars and swimming pools from satellite images. There are an abundance of satellite imagery data available and manually sorting through all of it would be tedious, this project was a proof of concept that it is possible to accurately detect objects via satellite images. Other important applications include surveying areas via drones and detecting things such as stolen cars or fires.
+                            a(href='https://github.com/chasetoyo/Satellite-Image-Detection', class='btn btn-primary', target='_empty')
                                 i.fab.fa-github.fa-fw
                                 | View On GitHub
