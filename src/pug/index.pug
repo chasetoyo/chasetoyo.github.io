@@ -39,11 +39,11 @@ html(lang='en')
                         li.nav-item.mx-0.mx-lg-1
                             a.nav-link.py-3.px-0.px-lg-3.rounded(href='#about') About
                         li.nav-item.mx-0.mx-lg-1
+                            a.nav-link.py-3.px-0.px-lg-3.rounded(href='#experience') Experience
+                        li.nav-item.mx-0.mx-lg-1
                             a.nav-link.py-3.px-0.px-lg-3.rounded(href='#portfolio') Portfolio
                         //- li.nav-item.mx-0.mx-lg-1
                             //- a.nav-link.py-3.px-0.px-lg-3.rounded(href='#contact') Education
-                        li.nav-item.mx-0.mx-lg-1
-                            a.nav-link.py-3.px-0.px-lg-3.rounded(href='#experience') Experience
 
         // Masthead
         header.masthead.bg-primary.text-white.text-center
@@ -60,7 +60,7 @@ html(lang='en')
                         i.far.fa-user
                     .divider-custom-line
                 // Masthead Subheading
-                p.masthead-subheading.font-weight-light.mb-0 Back-End Software Developer in Honolulu, Hawaii
+                p.masthead-subheading.font-weight-light.mb-0 Software Developer in Honolulu, Hawaii
         
         // About Section
         section#about.page-section.bg-white.text-secondary.mb-0
@@ -75,18 +75,41 @@ html(lang='en')
                     .divider-custom-line
                 // About Section Content
                 .row
-                    .col-lg-4.ms-auto
+                    .col-lg-3.ms-auto
                         p.lead
-                            | Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
-                    .col-lg-4.me-auto
+                    .col-lg-6.ms-auto
                         p.lead
-                            | You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
+                            | Hello world! My name is Chase and I'm a Software Developer with an interest in database applications and computer vision.
+                            | I graduated with a B.S. Computer Science from Chapman University and I am passionate about using the leading edge of 
+                            | technology to create tools that leave an impact in the world.
+                    .col-lg-3.ms-auto
+                        p.lead
+                    
                 // About Section Button
                 .text-center.mt-4
                     a.btn.btn-xl.btn-outline-dark(href='assets/Chase_ToyofukuSouza_Resume_SE.pdf')
                         i.fas.fa-download.me-2
-                        | Free Download!
+                        | View Resume
+       
+        section#experience.page-section.bg-primary.text-white.mb-0
+            .container
+                h2.page-section-heading.text-center.text-uppercase.text-white Experience
+                .divider-custom.divider-light
+                    .divider-custom-line
+                    .divider-custom-icon
+                        i.fas.fa-book 
+                    .divider-custom-line
+            //- .resume-section-content
+            //-     h2.mb-5 Experience
 
+            //-     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+            //-         .flex-grow-1
+            //-             h3.mb-0 Senior Web Developer
+            //-             .subheading.mb-3 Intelitec Solutions
+            //-             p
+            //-                 | Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+            //-             .flex-shrink-0
+            //-                 span.text-primary March 2013 - Present
         // Portfolio Section
         section#portfolio.page-section.portfolio
             .container
@@ -142,26 +165,6 @@ html(lang='en')
                                 .portfolio-item-caption-content.text-center.text-white
                                     i.fas.fa-plus.fa-3x
                             img.img-fluid(src='assets/img/portfolio/cookingdaddy2.png', alt='...')
-        
-        section#experience.page-section.bg-white.text-secondary.mb-0
-            .container
-                h2.page-section-heading.text-center.text-uppercase.text-secondary Experience
-                .divider-custom.divider-dark
-                    .divider-custom-line
-                    .divider-custom-icon
-                        i.fas.fa-book
-                    .divider-custom-line
-            //- .resume-section-content
-            //-     h2.mb-5 Experience
-
-            //-     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-            //-         .flex-grow-1
-            //-             h3.mb-0 Senior Web Developer
-            //-             .subheading.mb-3 Intelitec Solutions
-            //-             p
-            //-                 | Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
-            //-             .flex-shrink-0
-            //-                 span.text-primary March 2013 - Present
 
         // Footer
         footer.footer.text-center
@@ -181,8 +184,8 @@ html(lang='en')
                             i.fab.fa-fw.fa-linkedin-in
                         a.btn.btn-outline-light.btn-social.mx-1(href='https://www.youtube.com/channel/UCm8cc_a9P68Cgx6AaLJLNsQ' target="_blank")
                             i.fab.fa-fw.fa-youtube
-                        a.btn.btn-outline-light.btn-social.mx-1(href='mailto:chasetoyo@gmail.com?subject=Inquiry from website')
-                            i.fas.fa-fw.fa-envelope
+                        a.btn.btn-outline-light.btn-social.mx-1(href='https://instagram.com/chasetoyo' target="_blank")
+                            i.fab.fa-fw.fa-instagram
                     //- // Footer About Text
                     .col-lg-4
                         h4.text-uppercase.mb-4 Contact
