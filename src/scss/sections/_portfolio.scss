@@ -17,14 +17,14 @@
             left: 0;
             transition: $transition-base;
             opacity: 0;
-            background-color: fade-out($primary, .1);
+            background-color: fade-out($dark-blue, .1);
 
             &:hover {
-                opacity: 1;
+                opacity: .85;
             }
 
             .portfolio-item-caption-content {
-                font-size: 1.5rem;
+                font-size: 2.0rem;
             }
         }
     }
